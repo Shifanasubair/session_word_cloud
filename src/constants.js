@@ -1,0 +1,1 @@
+export const BRIEF_REF_5190_MAX_BYTES = 25 * 1024 * 1024
