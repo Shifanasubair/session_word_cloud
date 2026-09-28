@@ -281,7 +281,7 @@ recorder.start()
       const formData = new FormData()
       formData.append('audio', file)
   
-      const response = await fetch('http://localhost:3001/api/analyze', {
+      const response = await fetch('https://session-word-cloud.onrender.com/api/analyze', {
         method: 'POST',
         body: formData,
       })
